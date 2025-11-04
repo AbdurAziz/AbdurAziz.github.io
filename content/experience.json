@@ -1,0 +1,47 @@
+[
+  {
+    "company": "Frigate",
+    "title": "Software Engineer Intern",
+    "start": "Sep 2025",
+    "end": "Present",
+    "link": "https://frigate.global/",
+    "points": [
+      "Currently working on full-stack development products."
+    ]
+  },
+  {
+    "company": "BP (British Petroleum)",
+    "title": "Alarm Optimization Developer",
+    "start": "Jan 2025",
+    "end": "Present",
+    "link": "https://www.bp.com",
+    "points": [
+      "Built an interactive Streamlit dashboard, using Python, to help site Production & Operation Controll engineers analyze alarm flood events in refineries.",
+      "Collaborated with BP engineers and followed ISA-18.2 / IEC-62682 standards to reduce nuisance alarms and improve site safety."
+    ]
+  },
+  {
+    "company": "Chevron",
+    "title": "Software Engineer Intern - Supply Chain and Management Team",
+    "start": "June 2024",
+    "end": "August 2024",
+    "link": "https://www.chevron.com",
+    "points": [
+      "Created a data dashboard that organizes deal data for schedulers wishing to exchange petroleum products across the nation at different terminals.",
+      "Think of it like the New York Stock Exchange for stock trading, but for trading different oil products.",
+      "I worked as a team to analyze the Supply Chain codebase for refactoring code dependencies, contributing to a projected $1.15B savings for the software team"
+    ]
+  },
+  {
+    "company": "Chevron",
+    "title": "Software Engineer Intern",
+    "start": "May 2023",
+    "end": "August 2023",
+    "link": "https://www.chevron.com",
+    "points": [
+      "Developed Angular/TypeScript dashboards and data grids for Chevron's internal Data marketplace for Data Marketplace users to use.",
+      "A table that shows specific user owned Data entities, and a chart that displays the number of visitors for the Marketplace's website."
+    ]
+  }
+
+]

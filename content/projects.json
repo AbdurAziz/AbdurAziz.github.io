@@ -1,0 +1,25 @@
+[
+  {
+    "title": "Recycle Magic Dashboard",
+    "description": "Real-time recycling analytics with Firebase + Python backend, built at Cal Hacks 11.0.",
+    "tech": [
+      "Python",
+      "Reflex",
+      "Firebase",
+      "IoT"
+    ],
+    "github": "https://github.com/your/recycle-magic",
+    "demo": "#"
+  },
+  {
+    "title": "CallSummarizeAI",
+    "description": "Local Whisper transcription + on-device Transformers for meeting summaries\u2014no external APIs.",
+    "tech": [
+      "Python",
+      "Whisper",
+      "Transformers"
+    ],
+    "github": "https://github.com/your/callsummarizeai",
+    "demo": "#"
+  }
+]
