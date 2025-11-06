@@ -10,7 +10,8 @@ type CompanyLogoProps = {
 export function CompanyLogo({ company, size = 32 }: CompanyLogoProps) {
   const logos: Record<string, string> = {
     "Chevron": "/logos/chevron.png",
-    // Add more company logos here as needed
+    "BP": "/logos/bp.png",
+    "Frigate": "/logos/frigate.png"
   };
 
   const logoPath = logos[company];
