@@ -4,6 +4,7 @@ import { Section } from "@/components/Section";
 import { ExperienceTimeline } from "@/components/ExperienceTimeline";
 import { SoftwareProjectGrid } from "@/components/ProjectGrid";
 import { HardwareProjectGrid } from "@/components/HardwareProjectGrid";
+import { SocialLinks } from "@/components/SocialLinks";
 import { motion } from "framer-motion";
 
 export default function Page() {
@@ -60,12 +61,7 @@ export default function Page() {
         <p className="prose-muted">
          Do you like programming, engineering, or anything outside of STEM? I do too and am open to talking about it.
         </p>
-        <a
-          href="mailto:abdurazzi.dev@gmail.com"
-          className="inline-block mt-6 border border-[var(--accent)] text-[var(--accent)] px-6 py-3 rounded-lg hover:bg-[var(--accent)] hover:text-[var(--bg)] transition"
-        >
-          Let's Connect
-        </a>
+        <SocialLinks />
       </Section>
     </>
   );

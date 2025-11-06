@@ -2,6 +2,7 @@
 
 import exp from "@/content/experience.json";
 import { motion } from "framer-motion";
+import { CompanyLogo } from "./CompanyLogo";
 
 type Role = {
   company: string;
@@ -26,9 +27,12 @@ export function ExperienceTimeline() {
           className="rounded-2xl p-6 bg-slate-900/40 shadow-soft border border-slate-800"
         >
           <header className="flex items-center justify-between gap-4 flex-wrap">
-            <h3 className="text-xl font-semibold">
-              {r.title} · <a className="hover:underline" href={r.link ?? '#'} target="_blank">{r.company}</a>
-            </h3>
+            <div className="flex items-center gap-3">
+              <CompanyLogo company={r.company} />
+              <h3 className="text-xl font-semibold">
+                {r.title} · <a className="hover:underline" href={r.link ?? '#'} target="_blank">{r.company}</a>
+              </h3>
+            </div>
             <span className="text-sm text-slate-400">{r.start} — {r.end}</span>
           </header>
           <ul className="mt-3 list-disc pl-5 text-slate-300 space-y-2">
