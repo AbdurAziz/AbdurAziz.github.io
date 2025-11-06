@@ -1,23 +1,50 @@
 [
   {
-    "title": "Recycle Magic Dashboard",
-    "description": "Real-time recycling analytics with Firebase + Python backend, built at Cal Hacks 11.0.",
+    "title": "RecycleMagic",
+    "description": "Real-time recycling analytics web app that shows recylcing status of materials built at Cal Hacks 11.0.",
     "tech": [
       "Python",
-      "Reflex",
+      "Reflex.dev",
+      "ReactJS",
       "Firebase",
-      "IoT"
+      "IoT Skylo Hardware"
     ],
     "github": "https://github.com/your/recycle-magic",
     "demo": "#"
   },
   {
-    "title": "CallSummarizeAI",
+    "title": "Sage AI",
+    "description": "An offline AI tutor supported through a local server, where students connect to a single offline PC that serves as an AI tutor for an entire class of 30–50",
+    "tech": [
+      "Python",
+      "Typescript",
+      "Flask",
+      "APIs",
+      "mistral-7B"
+    ],
+    "Project Link": "https://devpost.com/software/sage-tgz93p",
+    "demo": "#"
+  },
+  {
+    "title": "CallSummarize-AI",
     "description": "Local Whisper transcription + on-device Transformers for meeting summaries\u2014no external APIs.",
     "tech": [
       "Python",
       "Whisper",
-      "Transformers"
+      "Visual Studio Code"
+    ],
+    "github": "https://github.com/your/callsummarizeai",
+    "demo": "#"
+  }, 
+  {
+    "title": "AC to DC Power Converter",
+    "description": "Built an AC-to-DC power converter that transforms mains AC input into a stable DC output for electronic circuits.",
+    "tech": [
+      "Circuit Analysis",
+      "Electronic Theory",
+      "Circuit Board Design", 
+      "Multism",
+      "Debugging"
     ],
     "github": "https://github.com/your/callsummarizeai",
     "demo": "#"

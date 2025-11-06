@@ -32,7 +32,13 @@ export default function Page() {
       <Section id="about" title="About">
         <p className="prose-muted max-w-2xl">
           I'm a hardware engineer and software engineer that likes to build products that helps others for any industry.
-          Currently, I'm a software engineer intern at Frigate working on all-round development. 
+          Oil & Gas, Fintech, Automotive, Robotics, you name it.
+        </p>
+      </Section>
+      <Section id="about" title="Currently....">
+        <p className="prose-muted max-w-2xl">
+          I'm a software engineer intern at Frigate working on all-round development. 
+          However, I'm open to hardware engineering projects and roles as well. I'm a fast learner who can work indepedently or in a team, willing to learn on the go.
         </p>
       </Section>
 
@@ -46,10 +52,10 @@ export default function Page() {
 
       <Section id="contact" title="Contact">
         <p className="prose-muted">
-          My inbox is always open. I'm open to new ideas and collaborations. I'm pretty responsive.
+         Do you like programming, engineering, or anything outside of STEM? I do too and am open to talking about it.
         </p>
         <a
-          href="mailto:you@example.com"
+          href="mailto:abdurazzi.dev@gmail.com"
           className="inline-block mt-6 border border-[var(--accent)] text-[var(--accent)] px-6 py-3 rounded-lg hover:bg-[var(--accent)] hover:text-[var(--bg)] transition"
         >
           Let's Connect
