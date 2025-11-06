@@ -1,6 +1,6 @@
 "use client";
 
-import softwareprojects from "@/content/softwareprojects.json";
+import hardwareprojects from "@/content/hardwareprojects.json";
 import { motion } from "framer-motion";
 import { Github, ExternalLink } from "lucide-react";
 
@@ -12,8 +12,8 @@ type Project = {
   demo?: string;
 };
 
-export function SoftwareProjectGrid() {
-  const list = softwareprojects as Project[];
+export function HardwareProjectGrid() {
+  const list = hardwareprojects as Project[];
   return (
     <div className="grid md:grid-cols-2 gap-6">
       {list.map((p, i) => (

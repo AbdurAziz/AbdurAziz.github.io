@@ -2,7 +2,8 @@
 
 import { Section } from "@/components/Section";
 import { ExperienceTimeline } from "@/components/ExperienceTimeline";
-import { ProjectGrid } from "@/components/ProjectGrid";
+import { SoftwareProjectGrid } from "@/components/ProjectGrid";
+import { HardwareProjectGrid } from "@/components/HardwareProjectGrid";
 import { motion } from "framer-motion";
 
 export default function Page() {
@@ -46,9 +47,14 @@ export default function Page() {
         <ExperienceTimeline />
       </Section>
 
-      <Section id="projects" title="Projects">
-        <ProjectGrid />
+      <Section id="softwareprojects" title="Software Projects">
+        <SoftwareProjectGrid />
       </Section>
+
+      <Section id="hardwareprojects" title="Hardware Projects">
+        <HardwareProjectGrid />
+      </Section>
+
 
       <Section id="contact" title="Contact">
         <p className="prose-muted">

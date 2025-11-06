@@ -6,7 +6,8 @@ const items = [
   { href: "#hero", label: "Home" },
   { href: "#about", label: "About" },
   { href: "#experience", label: "Experience" },
-  { href: "#projects", label: "Projects" },
+  { href: "#softwareprojects", label: "Software Projects" },
+  { href: "#hardwareprojects", label: "Hardware Projects" },
   { href: "#contact", label: "Contact" },
 ];
 

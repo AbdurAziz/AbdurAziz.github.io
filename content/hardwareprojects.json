@@ -9,22 +9,18 @@
       "Quartus Prime", 
       "Hardware Design",
       "Debugging"
-    ],
-    "github": "https://github.com/your/callsummarizeai",
-    "demo": "#"
+    ]
  },
   {
     "title": "4 bit SRAM Circuit",
-    "description": " Collaborated in a team of 3 to build a circuit that .",
+    "description": " Collaborated in a team of 3 to build a 4 RAM MOSFET Module.",
     "tech": [
       "Hardware Design",
       "Electronic Theory",
       "Resistors, AND, OR, NOT Gate Chips",
       "Debugging",
       "Power Supply"
-    ],
-    "github": "https://github.com/your/callsummarizeai",
-    "demo": "#"
+    ]
  },
     
 {
@@ -37,8 +33,6 @@
       "Resisotrs, Capacitors, Inductors",
       "Multism",
       "Debugging"
-    ],
-    "github": "https://github.com/your/callsummarizeai",
-    "demo": "#"
+    ]
  }
 ]
