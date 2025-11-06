@@ -6,7 +6,8 @@
     "end": "Present",
     "link": "https://frigate.global/",
     "points": [
-      "Currently working on full-stack development products."
+      "Currently working on full-stack development products.",
+      "Tech Stack: Java Spring Boot, ReactJS, PostgreSQL, Python"
     ]
   },
   {
@@ -31,7 +32,7 @@
       "Created a data dashboard that organizes deal data for schedulers wishing to exchange petroleum products across the nation at different terminals.",
       "Think of it like the New York Stock Exchange for stock trading, but for trading different oil products.",
       "I worked as a team to analyze the Supply Chain codebase for refactoring code dependencies, contributing to a projected $1.15B savings for the software team",
-      "Tech Stack: Angular.JS, TypeScript, HTML, CSS, C# .NET"
+      "Tech Stack: Angular.JS, SQL, TypeScript, HTML, CSS, C# .NET"
     ]
   },
   {
@@ -44,7 +45,7 @@
       "Developed a table grid for Chevron's internal Data marketplace for Data architects to use.",
       "The table grid hows specific user owned data entities, their metadata, and allows users to edit and update their data assets.",  
       "Developed a chart that displays the number of visitors for the Marketplace's website, .",
-      "Tech Stack: Angular.JS, TypeScript, HTML, CSS, C# .NET"
+      "Tech Stack: Angular.JS, SQL, TypeScript, HTML, CSS, C# .NET"
     ]
   }
 
