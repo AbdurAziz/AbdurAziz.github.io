@@ -10,7 +10,7 @@ type CompanyLogoProps = {
 export function CompanyLogo({ company, size = 32 }: CompanyLogoProps) {
   const logos: Record<string, string> = {
     "Chevron": "/logos/chevron.png",
-    "BP": "/logos/bp.png",
+    "BP (British Petroleum)": "/logos/bp.png",
     "Frigate": "/logos/frigate.png"
   };
 
