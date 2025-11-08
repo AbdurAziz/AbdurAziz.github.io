@@ -1,41 +1,53 @@
 [
- {
+  {
     "title": "FPGA Mental Math Binary Game",
     "description": "A semester-long project where I designed and implemented a mental math game on an FPGA board using Verilog and ModelSim. It's got password features and tracks high scores.",
     "tech": [
       "Verilog",
       "VDHL",
       "Intel Model-Sim",
-      "Quartus Prime", 
+      "Quartus Prime",
       "Hardware Design",
       "Debugging"
     ],
-    "pdf": "/pdfs/fpga-game.pdf"
- },
+    "pdfs": [
+      {
+        "title": "User Manual",
+        "url": "/pdfs/userManual_Lab4_AZIZ_Abdur.pdf"
+      },
+      {
+        "title": "Design Doc",
+        "url": "/pdfs/designDoc_Lab4_AZIZ_Abdur.pdf"
+      }
+    ]
+  },
   {
     "title": "4 bit SRAM Circuit",
-    "description": " Collaborated in a team of 3 to build a 4 RAM MOSFET Module.",
+    "description": "Collaborated in a team of 3 to build a 4 RAM MOSFET Module.",
     "tech": [
       "Hardware Design",
       "Electronic Theory",
       "Resistors, AND, OR, NOT Gate Chips",
       "Debugging",
       "Power Supply"
-    ],
-    "pdf": "/pdfs/sram-circuit.pdf"
- },
-    
-{
+    ]
+  },
+  {
     "title": "AC to DC Power Converter",
     "description": "Built an AC-to-DC power converter that transforms mains AC input into a stable DC output for electronic circuits.",
     "tech": [
       "Circuit Analysis",
       "Electronic Theory",
-      "Circuit Board Design", 
+      "Circuit Board Design",
       "Resisotrs, Capacitors, Inductors",
       "Multism",
       "Debugging"
     ],
-    "pdf": "/pdfs/power-converter.pdf"
- }
+    "pdfs": [
+      {
+        "title": "Documentation",
+        "url": "/pdfs/power-converter.pdf"
+      }
+    ]
+  }
 ]
