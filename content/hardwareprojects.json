@@ -1,7 +1,7 @@
 [
  {
     "title": "FPGA Mental Math Binary Game",
-    "description": "Built an AC-to-DC power converter that transforms mains AC input into a stable DC output for electronic circuits.",
+    "description": "A semester-long project where I designed and implemented a mental math game on an FPGA board using Verilog and ModelSim. It's got password features and tracks high scores.",
     "tech": [
       "Verilog",
       "VDHL",
@@ -9,7 +9,8 @@
       "Quartus Prime", 
       "Hardware Design",
       "Debugging"
-    ]
+    ],
+    "pdf": "/pdfs/fpga-game.pdf"
  },
   {
     "title": "4 bit SRAM Circuit",
@@ -20,7 +21,8 @@
       "Resistors, AND, OR, NOT Gate Chips",
       "Debugging",
       "Power Supply"
-    ]
+    ],
+    "pdf": "/pdfs/sram-circuit.pdf"
  },
     
 {
@@ -33,6 +35,7 @@
       "Resisotrs, Capacitors, Inductors",
       "Multism",
       "Debugging"
-    ]
+    ],
+    "pdf": "/pdfs/power-converter.pdf"
  }
 ]
