@@ -35,18 +35,5 @@
     ],
     "github": "https://github.com/your/callsummarizeai",
     "demo": "#"
-  }, 
-  {
-    "title": "AC to DC Power Converter",
-    "description": "Built an AC-to-DC power converter that transforms mains AC input into a stable DC output for electronic circuits.",
-    "tech": [
-      "Circuit Analysis",
-      "Electronic Theory",
-      "Circuit Board Design", 
-      "Multism",
-      "Debugging"
-    ],
-    "github": "https://github.com/your/callsummarizeai",
-    "demo": "#"
   }
 ]
