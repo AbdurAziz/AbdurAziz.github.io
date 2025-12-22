@@ -26,7 +26,7 @@ export function SoftwareProjectGrid() {
           className="rounded-2xl p-6 bg-slate-900/40 dark:bg-slate-900/40 shadow-soft border border-slate-800 dark:border-slate-800 flex flex-col"
         >
           <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100">{p.title}</h3>
-          <p className="mt-2 text-black dark:text-slate-300 flex-1">{p.description}</p>
+          <p className="mt-2 !text-black dark:!text-slate-300 flex-1">{p.description}</p>
           <div className="mt-4 flex flex-wrap gap-2 text-xs text-slate-500 dark:text-slate-400">
             {p.tech.map((t) => (
               <span key={t} className="border border-slate-400 dark:border-slate-700 rounded-full px-2 py-1">{t}</span>

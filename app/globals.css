@@ -18,6 +18,10 @@ body {
   color: var(--text);
 }
 
+p {
+  color: inherit;
+}
+
 a {
   color: var(--accent);
   text-decoration: none;
