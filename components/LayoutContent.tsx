@@ -2,7 +2,6 @@
 
 import { SidebarNav } from "@/components/SidebarNav";
 import { Footer } from "@/components/Footer";
-import { ThemeToggle } from "@/components/ThemeToggle";
 
 export function LayoutContent({ children }: { children: React.ReactNode }) {
   return (
@@ -14,7 +13,6 @@ export function LayoutContent({ children }: { children: React.ReactNode }) {
         <main className="pt-12">{children}</main>
       </div>
       <Footer />
-      <ThemeToggle />
     </>
   );
 }
