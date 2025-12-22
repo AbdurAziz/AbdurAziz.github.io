@@ -15,6 +15,10 @@ html, body {
 
 body {
   background: var(--bg);
+}
+
+/* Default text color for most content */
+body > * {
   color: var(--text);
 }
 
