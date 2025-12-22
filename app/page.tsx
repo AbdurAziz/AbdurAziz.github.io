@@ -48,6 +48,20 @@ export default function Page() {
         <ExperienceTimeline />
       </Section>
 
+      <Section id="education" title="Education">
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.4 }}
+          className="max-w-2xl"
+        >
+          <h3 className="text-lg font-semibold">University of Houston</h3>
+          <p className="text-sm text-slate-400 mt-1">Bachelor's of Science in Computer Engineering</p>
+          <p className="prose-muted mt-2">August 2021 - May 2025 · Cum Laude Graduate</p>
+        </motion.div>
+      </Section>
+
       <Section id="softwareprojects" title="Software Projects">
         <SoftwareProjectGrid />
       </Section>
