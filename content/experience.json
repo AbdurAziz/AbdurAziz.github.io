@@ -2,12 +2,13 @@
   {
     "company": "Frigate",
     "title": "Software Engineer Intern",
-    "start": "Sep 2025",
-    "end": "Present",
+    "start": "September 2025",
+    "end": "November 2025",
     "link": "https://frigate.global/",
     "points": [
-      "Currently working on full-stack development products.",
-      "Tech Stack: Java Spring Boot, ReactJS, PostgreSQL, Python"
+      "Developed a full real-time notification system using React.js, Spring Boot, PostgreSQL, and Generative AI Prompting, reducing admin communication delay by 10 sec and lowering manual follow-ups by 25%",
+      "Designed and implemented a user-editable bank information workflow, using PostgreSQL, Spring Boot, and Generative AI Prompting increasing user autonomy and reducing support overhead by allowing on-demand updates to financial details ",
+      "Tech Stack: Java Spring Boot, ReactJS, PostgreSQL, Postman Python"
     ]
   },
   {

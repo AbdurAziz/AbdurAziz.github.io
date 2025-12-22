@@ -1,7 +1,7 @@
 [
   {
     "title": "FPGA Mental Math Binary Game",
-    "description": "A semester-long project where I designed and implemented a mental math game on an FPGA board using Verilog and ModelSim. It's got password features and tracks high scores.",
+    "description": "A semester-long project where I designed and implemented a mental math game on an FPGA board using Verilog and ModelSim. It's got password features and tracks high scores in hexadecimal",
     "tech": [
       "Verilog",
       "VDHL",
@@ -34,7 +34,7 @@
   },
   {
     "title": "AC to DC Power Converter",
-    "description": "Built an AC-to-DC power converter that transforms mains AC input into a stable DC output for electronic circuits.",
+    "description": "Built an AC-to-DC power converter that transforms mains AC input into a stable DC output for electronic circuits. In real life, electricity from power lines and substations get converted from unstable power to stable power as per an infrastructures power consumption quota.",
     "tech": [
       "Circuit Analysis",
       "Electronic Theory",
