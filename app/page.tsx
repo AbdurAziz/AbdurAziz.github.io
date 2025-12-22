@@ -49,17 +49,22 @@ export default function Page() {
       </Section>
 
       <Section id="education" title="Education">
-        <motion.div
+        <motion.article
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.4 }}
-          className="max-w-2xl"
+          className="rounded-2xl p-6 bg-slate-900/40 shadow-soft border border-slate-800 max-w-2xl"
         >
-          <h3 className="text-lg font-semibold">University of Houston</h3>
-          <p className="text-sm text-slate-400 mt-1">Bachelor's of Science in Computer Engineering</p>
-          <p className="prose-muted mt-2">August 2021 - May 2025 · Cum Laude Graduate</p>
-        </motion.div>
+          <header className="flex items-center justify-between gap-4 flex-wrap">
+            <div>
+              <h3 className="text-xl font-semibold">University of Houston</h3>
+              <p className="text-sm text-slate-400 mt-1">Bachelor's of Science in Computer Engineering</p>
+            </div>
+            <span className="text-sm text-slate-400">August 2021 — May 2025</span>
+          </header>
+          <p className="mt-3 text-slate-300">Cum Laude Graduate</p>
+        </motion.article>
       </Section>
 
       <Section id="softwareprojects" title="Software Projects">
