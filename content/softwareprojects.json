@@ -9,8 +9,7 @@
       "Firebase",
       "IoT Skylo Hardware"
     ],
-    "github": "https://github.com/your/recycle-magic",
-    "demo": "#"
+    "github": "https://github.com/AbdurAziz/RecycleMagic"
   },
   {
     "title": "Sage AI",
@@ -22,8 +21,7 @@
       "APIs",
       "mistral-7B"
     ],
-    "Project Link": "https://devpost.com/software/sage-tgz93p",
-    "demo": "#"
+    "Project Link": "https://devpost.com/software/sage-tgz93p"
   },
   {
     "title": "CallSummarize-AI",
@@ -33,7 +31,6 @@
       "Whisper",
       "Visual Studio Code"
     ],
-    "github": "https://github.com/your/callsummarizeai",
-    "demo": "#"
+    "github": "https://github.com/your/callsummarizeai"
   }
 ]
