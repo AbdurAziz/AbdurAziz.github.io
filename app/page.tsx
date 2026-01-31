@@ -33,8 +33,10 @@ export default function Page() {
 
       <Section id="about" title="About">
         <p className="prose-muted max-w-2xl">
-          I'm a hardware engineer and software engineer that likes to build products that helps others for any industry.
-          Oil & Gas, Fintech, Automotive, Robotics, you name it.
+          I'm a Computer Engineering graduate with experience across software engineering internships and systems-oriented projects. I've built internal tools and real-time dashboards using C#, SQL, Angular, and Python, and worked on hardware-adjacent projects involving state machines and verification.
+        </p>
+        <p className="prose-muted max-w-2xl mt-4">
+          I'm most interested in engineering roles where system design, correctness, and reliability matter—especially in domains like automation, robotics, and large-scale industrial software.
         </p>
       </Section>
       <Section id="about" title="Currently....">
