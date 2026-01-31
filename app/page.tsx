@@ -39,8 +39,12 @@ export default function Page() {
       </Section>
       <Section id="about" title="Currently....">
         <p className="prose-muted max-w-2xl">
-          I'm a software engineer intern at Frigate working on all-round development. 
-          However, I'm open to hardware engineering projects and roles as well. I'm a fast learner who can work indepedently or in a team, willing to learn on the go.
+          I’m a Computer Engineering graduate with experience across three software engineering internships and a year-long Python senior design project focused on real-world systems.
+          I’ve built backend and full-stack software used in operational workflows, and I enjoy working on problems where reliability and system design matter.
+
+          I’ve also participated in multiple software hackathons, including RowdyHacks (2020), Squarespace Hackathon (2020), and Citrus Hacks (2021), and Cal-Hacks(2023 and 2024), 
+          where I not only got to team up with other passionate developers to sharpen my skills in rapid prototyping and innovative thinking, but also met a lot of amazing people along the way and made great connections in the tech community.
+          
         </p>
       </Section>
 
