@@ -10,6 +10,7 @@ type Project = {
   tech: string[];
   github?: string;
   demo?: string;
+  devpost?: string;
 };
 
 export function SoftwareProjectGrid() {
@@ -32,9 +33,10 @@ export function SoftwareProjectGrid() {
               <span key={t} className="border border-slate-700 rounded-full px-2 py-1">{t}</span>
             ))}
           </div>
-          <div className="mt-4 flex items-center gap-4">
-            {p.github && <a className="inline-flex items-center gap-1 hover:underline" href={p.github} target="_blank"><Github size={16}/>Code</a>}
-            {p.demo && <a className="inline-flex items-center gap-1 hover:underline" href={p.demo} target="_blank"><ExternalLink size={16}/>Live</a>}
+          <div className="mt-4 flex items-center gap-4 flex-wrap">
+            {p.github && <a className="inline-flex items-center gap-1 hover:underline" href={p.github} target="_blank" rel="noopener noreferrer"><Github size={16}/>Code</a>}
+            {p.demo && <a className="inline-flex items-center gap-1 hover:underline" href={p.demo} target="_blank" rel="noopener noreferrer"><ExternalLink size={16}/>Live</a>}
+            {p.devpost && <a className="inline-flex items-center gap-1 hover:underline" href={p.devpost} target="_blank" rel="noopener noreferrer"><ExternalLink size={16}/>DevPost</a>}
           </div>
         </motion.div>
       ))}

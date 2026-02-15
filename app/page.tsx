@@ -6,6 +6,7 @@ import { SoftwareProjectGrid } from "@/components/ProjectGrid";
 import { HardwareProjectGrid } from "@/components/HardwareProjectGrid";
 import { SocialLinks } from "@/components/SocialLinks";
 import { motion } from "framer-motion";
+import { TechStack } from "@/components/TechStack";
 
 export default function Page() {
   return (
@@ -27,26 +28,27 @@ export default function Page() {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.1 }}
         >
-          I build hardware and software for the world.
+          Computer Engineer who works across hardware and software systems to design backend and AI-assisted applications grounded in real-world applications
         </motion.p>
       </Section>
 
       <Section id="about" title="About">
         <p className="prose-muted max-w-2xl">
-          I’m a Computer Engineering graduate with experience across three software engineering internships and a year-long Python senior design project focused on real-world systems using C#, SQL, Angular, and Python to name a few.
-          I’ve built backend and full-stack software used in operational workflows, and I enjoy working on problems where reliability and system design matter.
-          I've also worked on hardware-adjacent projects involving FPGA design, circuit design for electronics, and embedded systems.
+          I'm a <strong className="text-sky-300 font-semibold">Computer Engineer</strong> with experience across enterprise and startup environments, including two software engineering internships at <strong className="text-sky-300 font-semibold">Chevron</strong> and a full-stack role at <strong className="text-sky-300 font-semibold">Frigate</strong>. I've contributed to <strong className="text-sky-300 font-semibold">production systems</strong>, <strong className="text-sky-300 font-semibold">backend services</strong>, and data-driven tools used in real operational workflows.
         </p>
         <p className="prose-muted max-w-2xl mt-4">
-          I've also participated in multiple software hackathons, including RowdyHacks (2020), Squarespace Hackathon (2020), and Citrus Hacks (2021), and Cal-Hacks(2023 and 2024), 
-          where I not only got to team up with other passionate developers to sharpen my skills in rapid prototyping and innovative thinking, but also met a lot of amazing people along the way and made great connections in the tech community.
+          Across these roles, I've worked closely with <strong className="text-sky-300 font-semibold">engineers, product stakeholders, and cross-functional teams</strong> — translating requirements into technical solutions, clarifying tradeoffs early, and iterating based on feedback. I value <strong className="text-sky-300 font-semibold">clear communication</strong> and <strong className="text-sky-300 font-semibold">shared ownership</strong>, especially in environments where systems affect real users and operations.
+        </p>
+        <p className="prose-muted max-w-2xl mt-4">
+          My background spans <strong className="text-sky-300 font-semibold">hardware and software systems</strong>, including <strong className="text-sky-300 font-semibold">FPGA-based digital design</strong>, <strong className="text-sky-300 font-semibold">embedded systems</strong>, <strong className="text-sky-300 font-semibold">backend architecture</strong>, and networking fundamentals. I'm particularly interested in how components interact across layers — from circuitry and state machines to APIs and distributed services.
+        </p>
+        <p className="prose-muted max-w-2xl mt-4">
+          I'm drawn to engineering work where <strong className="text-sky-300 font-semibold">reliability</strong>, <strong className="text-sky-300 font-semibold">system design</strong>, and thoughtful collaboration matter as much as implementation.
         </p>
       </Section>
-      <Section id="about" title="Currently....">
-        <p className="prose-muted max-w-2xl"> 
-          I'm seeking entry-level or new-grad software engineering and/ or electrical engineering roles focused on backend systems, APIs, real-time or distributed software, and engineering-driven products, given my background in hardware and software. I thrive in environments where correctness, reliability, and system design matter.
-           I'm most interested in entry-level engineering roles where system design, correctness, and reliability matter—especially in domains like automation, robotics, and large-scale industrial software. HOWEVER, I'M ALWAYS OPEN TO EXPLORING NEW OPPORTUNITIES AND FIELDS!
-        </p>
+
+      <Section id="techstack" title="Tech Stack">
+        <TechStack />
       </Section>
 
       <Section id="experience" title="Experience">

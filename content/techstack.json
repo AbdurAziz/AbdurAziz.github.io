@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Full Stack & Systems Software",
+    "subtitle": "",
+    "icon": "💻",
+    "techs": [
+      "Python",
+      "C++",
+      "Java",
+      "TypeScript",
+      "JavaScript",
+      "HTML",
+      "C#",
+      "SQL"
+    ]
+  },
+  {
+    "title": "Technologies",
+    "subtitle": "",
+    "icon": "⚙️",
+    "techs": [
+      "Angular",
+      "React",
+      "Spring Boot",
+      "Git",
+      "GitHub Actions",
+      "Docker",
+      "AWS",
+      "Azure",
+      "REST APIs",
+      "Visual Studio Code",
+      ".NET",
+      "Prompt Engineering",
+      "OpenAI",
+      "Claude",
+      "Gemini"
+    ]
+  },
+  {
+    "title": "Digital Systems and Embedded Design",
+    "subtitle": "",
+    "icon": "🤖",
+    "techs": [
+      "Verilog",
+      "FPGA",
+      "Digital Logic",
+      "Linux",
+      "Circuit Design",
+      "PCB Design",
+      "TCP/IP Protocols",
+      "Networking Basics"
+    ]
+  }
+]
