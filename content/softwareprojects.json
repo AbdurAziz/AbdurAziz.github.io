@@ -47,5 +47,16 @@
       "Visual Studio Code"
     ],
     "github": "https://github.com/AbdurAziz/callsummarizeai"
+  },
+  {
+    "title": "Smart Traffic Light Controller",
+    "description": "Density-based smart traffic light system built in C++ on Arduino platform using state-machine logic, timers, and interrupts. Integrated ultrasonic sensors for adaptive signal timing and validated through live testing and serial debugging.",
+    "tech": [
+      "C++",
+      "Teamwork",
+      "Cross-Functional Collaboration",
+      "Computer Architecture"
+    ],
+    "pdf": "/pdfs/Smart-Traffic-Light-Controller.pdf"
   }
 ]

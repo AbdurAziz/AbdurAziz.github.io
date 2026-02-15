@@ -5,13 +5,13 @@
     "icon": "💻",
     "techs": [
       "Python",
-      "C++",
       "Java",
-      "TypeScript",
-      "JavaScript",
+      "JavaScript/TypeScript",
       "HTML",
       "C#",
-      "SQL"
+      "Dart",
+      "SQL",
+      "Verilog"
     ]
   },
   {
@@ -20,12 +20,11 @@
     "icon": "⚙️",
     "techs": [
       "Angular",
-      "React",
       "Spring Boot",
       "Git",
+      "Debugging",
+      "Log Analysis",
       "GitHub Actions",
-      "Docker",
-      "AWS",
       "Azure",
       "REST APIs",
       "Visual Studio Code",
@@ -33,7 +32,7 @@
       "Prompt Engineering",
       "OpenAI",
       "Claude",
-      "Gemini"
+      "IOS Mobile Development"
     ]
   },
   {
@@ -41,12 +40,11 @@
     "subtitle": "",
     "icon": "🤖",
     "techs": [
-      "Verilog",
-      "FPGA",
-      "Digital Logic",
-      "Linux",
+      "FPGA Design",
+      "Computer Architecture",
+      "Digital Logic Design",
       "Circuit Design",
-      "PCB Design",
+      "Linux",
       "TCP/IP Protocols",
       "Networking Basics"
     ]

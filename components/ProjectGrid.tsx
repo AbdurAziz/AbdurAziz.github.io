@@ -2,7 +2,7 @@
 
 import softwareprojects from "@/content/softwareprojects.json";
 import { motion } from "framer-motion";
-import { Github, ExternalLink } from "lucide-react";
+import { Github, ExternalLink, FileText } from "lucide-react";
 
 type Project = {
   title: string;
@@ -11,6 +11,7 @@ type Project = {
   github?: string;
   demo?: string;
   devpost?: string;
+  pdf?: string;
 };
 
 export function SoftwareProjectGrid() {
@@ -37,6 +38,7 @@ export function SoftwareProjectGrid() {
             {p.github && <a className="inline-flex items-center gap-1 hover:underline" href={p.github} target="_blank" rel="noopener noreferrer"><Github size={16}/>Code</a>}
             {p.demo && <a className="inline-flex items-center gap-1 hover:underline" href={p.demo} target="_blank" rel="noopener noreferrer"><ExternalLink size={16}/>Live</a>}
             {p.devpost && <a className="inline-flex items-center gap-1 hover:underline" href={p.devpost} target="_blank" rel="noopener noreferrer"><ExternalLink size={16}/>DevPost</a>}
+            {p.pdf && <a className="inline-flex items-center gap-1 hover:underline" href={p.pdf} target="_blank" rel="noopener noreferrer"><FileText size={16}/>Docs</a>}
           </div>
         </motion.div>
       ))}
