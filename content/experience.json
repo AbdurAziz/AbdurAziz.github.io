@@ -6,8 +6,8 @@
     "end": "November 2025",
     "link": "https://frigate.global/",
     "points": [
-      "Developed a full real-time notification system using React.js, Spring Boot, PostgreSQL, and Generative AI Prompting, reducing admin communication delay by 10 sec and lowering manual follow-ups by 25%",
-      "Designed and implemented a user-editable bank information workflow, using PostgreSQL, Spring Boot, and Generative AI Prompting increasing user autonomy and reducing support overhead by allowing on-demand updates to financial details ",
+      "Developed a full real-time notification system using React.js, Spring Boot, PostgreSQL, and Generative AI Prompting (Copilot) for users to get personalized updates on the webapp, including balance changes, transaction alerts, and security notifications.",
+      "Designed and implemented a user-editable bank information workflow, using PostgreSQL, Spring Boot, and Generative AI Prompting (Copilot) to allow on-demand updates to financial details about their bank information, such as account numbers, routing numbers, and contact information.",
       "Tech Stack: Java Spring Boot, ReactJS, PostgreSQL, Postman Python"
     ]
   },
@@ -18,9 +18,13 @@
     "end": "May 2025",
     "link": "https://www.bp.com",
     "points": [
-      "Built an interactive Streamlit dashboard, using Python, to help site Production & Operation Controll engineers analyze alarm flood events in refineries.",
-      "Collaborated with BP engineers and followed ISA-18.2 / IEC-62682 standards to reduce nuisance alarms and improve site safety.",
-      "Tech Stack: Python, Streamlit.io, Plotly, Control Systems Theory"
+      "Led a team of 4 to make a Python webapp for refinery engineers to analyze alarm floods and improve alarm operational performance",
+      "Designed and implemented alarm webpage system architecture using Python (High-Level KPI summaries, alarm frequency rankings, flood event tables, severity categorizations) to analyze and detect critical alarm patterns",
+      "Implemented threshold flood detection logic and generated event tables with severity distributions to identify alarm flood density",
+      "Partnered directly with BP engineers to gather requirements and translate real-world alarm operational challenges into system features",
+      "Validated outputs using 10+ real refinery datasets and aligned system functionality with industry standards (EEMUA 191, ISA-18.2)",
+      "Presented the solution to 30+ BP engineers, securing positive feedback and deployment of the app onto BP’s Azure webserver",
+      "Tech Stack: Python, Streamlit.io, Plotly, Debugging, Code Review, Control Systems Theory"
     ]
   },
   {
@@ -30,10 +34,12 @@
     "end": "August 2024",
     "link": "https://docs.google.com/presentation/d/e/2PACX-1vTnESvwiYqqPk3fH1I-8gfcI4ojvVwxdOlUyPnfdeNLncdZax2u1vNionw3nx6nPvXBVoubqcl_zMrX/pub?start=false&loop=false&delayms=3000&slide=id.g33425858254_0_0",
     "points": [
-      "Created a data dashboard that organizes deal data for schedulers wishing to exchange petroleum products across the nation at different terminals.",
+      "First Project: I worked as a team to analyze the Supply Chain codebase to trace data flows, identify failure points, and detect hard-coded dependencies, enabling large-scale code refactor project tied to a $1.152B cost optimization initiative",
+      "Second Project: Developed a data dashboard that organizes deal data for schedulers wishing to exchange petroleum products across the nation at different oil terminals.",
       "Think of it like the New York Stock Exchange for stock trading, but for trading different oil products.",
-      "I worked as a team to analyze the Supply Chain codebase for refactoring code dependencies, contributing to a projected $1.15B savings for the software team",
-      "Tech Stack: Angular.JS, SQL, TypeScript, HTML, CSS, C# .NET"
+      "Third Project: Implemented a microservice endpoint (Angular/TypeScript/C#/SQL) to display newly created petroleum deals for oil traders",
+      "Think of it like a receipt for a stock trade, but for petroleum products.",
+      "Tech Stack: Angular.JS, SQL, TypeScript, HTML, CSS, C# .NET, Code Review, Debugging"
     ]
   },
   {
@@ -43,9 +49,9 @@
     "end": "August 2023",
     "link": "https://www.chevron.com/what-we-do/technology-and-innovation",
     "points": [
-      "Developed a table grid for Chevron's internal Data marketplace for Data architects to use.",
-      "The table grid hows specific user owned data entities, their metadata, and allows users to edit and update their data assets.",  
-      "Developed a chart that displays the number of visitors for the Marketplace's website, .",
+      "First Project: I Developed a table grid for Chevron's internal Data marketplace for Data architects to use.",
+      "The table grid hows specific user owned data entities, their metadata, and allows data architects to edit and update their data assets.",  
+      "Second Project: Developed a chart that displays the number of visitors for the Marketplace's website so data architects can analyze website analytics and develop business strategies to increase visitors and provide value for external stakeholders .",
       "Tech Stack: Angular.JS, SQL, TypeScript, HTML, CSS, C# .NET"
     ]
   }
